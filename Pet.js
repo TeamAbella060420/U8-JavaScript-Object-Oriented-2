@@ -5,3 +5,5 @@ class Pet {
         this.breed = breed;
     }
 }
+
+const ernie = new Pet()
