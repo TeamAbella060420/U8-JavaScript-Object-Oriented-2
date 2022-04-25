@@ -6,4 +6,4 @@ class Pet {
     }
 }
 
-const ernie = new Pet()
+const ernie = new Pet('dog', 1, 'pug');
