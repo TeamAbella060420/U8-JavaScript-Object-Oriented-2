@@ -8,3 +8,5 @@ class Pet {
 
 const ernie = new Pet('dog', 1, 'pug');
 const vera = new Pet('dog', 8, 'border collie');
+
+console.log(ernie);
