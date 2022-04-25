@@ -11,7 +11,7 @@ class Pet {
     }
 }
 
-const ernie = new Pet('dog', 1, 'pug');
-const vera = new Pet('dog', 8, 'border collie');
+const ernie = new Pet('dog', 1, 'pug', 'yip yip');
+const vera = new Pet('dog', 8, 'border collie', 'woof woof');
 
 console.log(ernie);
