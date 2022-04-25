@@ -1,5 +1,5 @@
 class Pet {
-    constructor(animal) {
+    constructor(animal, age, breed, sound) {
         this.animal = animal;
         this.age = age;
         this.breed = breed;
