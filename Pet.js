@@ -1,5 +1,5 @@
 class Pet {
     constructor(animal) {
-        this.animal
+        this.animal = animal;
     }
 }
