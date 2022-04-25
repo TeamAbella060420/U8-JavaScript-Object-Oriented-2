@@ -7,7 +7,7 @@ class Pet {
     }
 
     speak() {
-
+        console.log(this.sound);
     }
 }
 
