@@ -3,6 +3,11 @@ class Pet {
         this.animal = animal;
         this.age = age;
         this.breed = breed;
+        this.sound = sound;
+    }
+
+    speak() {
+
     }
 }
 
