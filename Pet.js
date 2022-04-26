@@ -31,6 +31,13 @@ class Pet {
     }
 }
 
+class Owner {
+    constructor(name, address) {
+        this.name = name;
+        this.address = address;
+    }
+}
+
 const ernie = new Pet('dog', 1, 'pug', 'yip yip');
 const vera = new Pet('dog', 8, 'border collie', 'woof woof');
 
