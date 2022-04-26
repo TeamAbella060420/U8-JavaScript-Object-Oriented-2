@@ -6,3 +6,4 @@
 4. Instantiating a Pet Object - instantiate new objects from classes.
 5. Adding Methods To Our Class - Add methods to the class declaration.
 6. Getters - Creating properties with dynamic values using getters in JavaScript.
+7. Setters - Add logic in addition to setting property values via setter methods.
