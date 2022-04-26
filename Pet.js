@@ -17,6 +17,10 @@ class Pet {
         }
     }
 
+    set owner(owner) {
+        this.owner = owner;
+    }
+
     speak() {
         console.log(this.sound);
     }
