@@ -25,5 +25,4 @@ class Pet {
 const ernie = new Pet('dog', 1, 'pug', 'yip yip');
 const vera = new Pet('dog', 8, 'border collie', 'woof woof');
 
-ernie.speak();
-vera.speak();
+console.log(ernie.activity);
