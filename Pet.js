@@ -19,6 +19,7 @@ class Pet {
 
     set owner(owner) {
         this._owner = owner;
+        console.log(`setter called: ${owner}`);
     }
 
     speak() {
