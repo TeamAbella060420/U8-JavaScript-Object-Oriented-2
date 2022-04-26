@@ -18,7 +18,7 @@ class Pet {
     }
 
     set owner(owner) {
-        this.owner = owner;
+        this._owner = owner;
     }
 
     speak() {
