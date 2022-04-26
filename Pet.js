@@ -36,6 +36,11 @@ class Owner {
         this.name = name;
         this.address = address;
     }
+
+    set phone(phone) {
+        const phoneNormalized = phone.replace(/[^0-9]/g, '')
+        this._phone = phoneNormalized;
+    }
 }
 
 const ernie = new Pet('dog', 1, 'pug', 'yip yip');
