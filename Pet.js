@@ -17,6 +17,10 @@ class Pet {
         }
     }
 
+    get owner() {
+        return this._owner;
+    }
+
     set owner(owner) {
         this._owner = owner;
         console.log(`setter called: ${owner}`);
@@ -30,4 +34,5 @@ class Pet {
 const ernie = new Pet('dog', 1, 'pug', 'yip yip');
 const vera = new Pet('dog', 8, 'border collie', 'woof woof');
 
-console.log(ernie.activity);
+ernie.owner = 'Ashley';
+console.log(ernie.owner);
