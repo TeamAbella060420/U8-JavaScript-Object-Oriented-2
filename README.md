@@ -5,3 +5,4 @@
 3. Adding Properties Inside the Constructor Method - Add properties to the class blueprint using the constructor method.
 4. Instantiating a Pet Object - instantiate new objects from classes.
 5. Adding Methods To Our Class - Add methods to the class declaration.
+6. Getters - Creating properties with dynamic values using getters in JavaScript.
